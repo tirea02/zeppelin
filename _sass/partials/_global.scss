@@ -42,7 +42,7 @@ b, strong {
 }
 a {
     @include linkColor($link-color);
-    &:hover, &:active, &:focus {
+    &:hover {
         text-decoration: none;
     }
 }

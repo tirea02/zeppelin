@@ -10,18 +10,34 @@ on_stylesheet_saved do |file|
 end
 
 http_path = "/" 
-sass_dir = "./" 
 css_dir = "../css" 
+sass_dir = "./" 
 images_dir = "../img" 
 javascripts_dir = "../js" 
 
-line_comments = false
-relative_assets = true 
-output_style = :compressed
+if environment == :development
+    line_comments = true
+	relative_assets = true 
+    output_style = :expanded
+end
+
+if environment == :production
+    line_comments = false
+	relative_assets = true 
+    output_style = :compressed
+
+    require 'fileutils'
+        on_stylesheet_saved do |file|
+            if File.exists?(file)
+            filename = File.basename(file, File.extname(file))
+            File.rename(file, "../css" + "/" + filename + ".min" + File.extname(file))
+        end
+    end
+end 
 
 # Remove multiline comments - monkey patch
 class Sass::Tree::Visitors::Perform < Sass::Tree::Visitors::Base
-#   # Removes all comments completely
+  # Removes all comments completely
   def visit_comment(node)
     return []
   end

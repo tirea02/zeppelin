@@ -1,92 +1,83 @@
-# Plugins
-gems:
-- jekyll-sitemap
-safe: false
-
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+title: "SSUmunity 2017 SS Recruit"
+email: "gdgssu@gmail.com"
+description: "SSUmunity 2017 recruit"
+baseurl: "/recruit"
+url: "http://gdg-ssu.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "SSUmunity"
+organizerAlternateName: "Google Developer Group SSU"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "konomama0505@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, gdg, gdgssu, google, programming, android, chrome, developers, 숭실대학교"
+twitterAccount: "@GDGSSU"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
+c4pUrl: "http://bit.ly/dfua-c4p"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/members/", text: "Members"}
+ - {permalink: "/team/", text: "team"}
+
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "/#tickets", text: "SSUmunity 지원하기"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "/recruit/#tickets", text: "SSUmunity 지원하기"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "2017 <typeout> Recruit"
+eventDate: "10/10 Tue - 10/20 Fri, 2017"
+typeoutTextValues: '"SSUmunity","슈뮤니티", "Google Developer Group SSU", "Hello! SSUmunity!", "Show your energy on"'
+typeoutFallback: "SSUmunuity"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {permalink: "/#tickets", text: "SSUmunity 지원하기"}
+ - {permalink: "/#about", text: "GDGmunity 알아보기"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About GDG SSU"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "학생 개발자 & 디자이너", image: "dnd.jpg", text: "그냥 학생이라고 하기엔 뭔가 독특합니다. SW 분야를 전공하는 학생으로 자신만의 꿈과 목표가 명확하며 그저 배우는 것 뿐만이 아닌, 자신만의 주력분야를 가지고 실질적인 SW 개발/디자인을 진행합니다. 우리는 우리 스스로를 평범한 학생이 아닌 학생 개발자/디자이너라고 칭합니다." }
+ - {title: "수많은 능력자", image: "stronger.jpg", text: "CS 전공자들에게 널리 알려진 SW Maestro 과정이나 삼성 소프트웨어 멤버십, Best of Best와 같은 연수과정을 거친 학생들이 이곳에 모여있습니다. 그리고 대학을 졸업하지 않았음에도 자신만의 아이템을 가지고 SW 창업을 진행하거나, 우리가 익히들은 Naver / 삼성전자 / LG전자 / Evernote / Nexon 등의 기업체에서 활약을 하는 능력자가 있습니다." }
+ - {title: "With Google", image: "with_google.jpg", text: "GDG SSU는 이름에서도 느껴지다시피 Google의 지원을 받으며 개발자로서 유익하고 의미있는 활동을 지속해왔습니다. GDG SSU의 일원이 되면 최고의 개발자라 일컫어지는 Googler를 만나서 인연을 맺고 도움을 받는 기회 또한 얻게됩니다." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "250", specialCharacter: "+", info: "Person", detail: "GDG SSU는 우리가 마련한 가치있는 이벤트에서 많은 사람들을 모으고 그들이 좋은 추억과 경험을 가질 수 있는 기회를 제공했습니다. 1회 평균 250명, 현재까지 약 2700명 이상의 학생들을 만나왔습니다."}
+ - {count: "50", specialCharacter: "+", info: "Events", detail: "설립한지 3년, 길지 않은 시간이었지만 GDG SSU는 학생개발자들의 발전을 위하여 유익한 개발자 행사를 수 차례 주최해왔습니다. GDG SSU는 그룹의 일원으로서 가입하는 것 뿐만이 아닌 이러한 이벤트에 참여하는 방식 역시 의미가 있습니다."}
+ - {count: "43", specialCharacter: "+", info: "Members", detail: "GDG SSU에는 좋은 멤버들의 숫자가 나날히 늘어가고 있습니다. 기존에 이 분야를 업으로 삼아온 사람들, 그 앞선 사람들의 등을 보고 따르며 성장하는 사람들 모두 말이지요."}
+ - {count: "3", specialCharacter: "-", info: "3 Campus Couple..", detail: "젊은 대학생 시절을 사랑에 불태우는 사람들이 많습니다. GDG SSU에는 개발뿐만 아니라 동아리 내에서 뜨거운 연애를 진행중인 커플이 많습니다."}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Mission of GDG SSU"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "GDG SSU 사람들"
+rockstarSpeakersButtonText: "GDG SSU의 모든 멤버 보기"
 
 # Location Block
 locationBlockTitle: "Location"
@@ -100,98 +91,154 @@ eventAddressCountry: "Ukraine"
 eventStartTime: "2014-10-25T10:00"
 eventDoorTime: "09:00"
 eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventPlaceCoordinates: "37.566189, 126.978101"
+mapCenterCoordinates: "37.566189, 126.978101"
+mapMobileCenterCoordinates: "37.566189, 126.978101"
 
 # Venue Block
-venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueBlockTitle: "좋은 개발자가 되고, 좋은 동료를 키우기 위해 활동해왔습니다."
+venueBigImage: "1.jpg"
+venueSmallImage1: "2.jpg"
+venueSmallImage2: "4.jpg"
+venueSmallImage3: "3.jpg"
+venueTitle: "Achievement of GDG SSU"
+venueFeatures: ["STD.IO Hello World!", "GDG Student Hackathon", "Daum DevOn", "etc..."]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+tweetsFeedTitle: "에서 일어나는 일을 알고 싶다면?"
+twitterHashTag : "GDG SSU"
+twitterFeed: "Google 계정으로 쉽게 연동되는 Google+에 가입하시고 <br> 위 링크의 GDG SSU 커뮤니티로 찾아오세요!"
 
 # Partners Block
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
 
+
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "SSUmunity 개발팀 지원하기"
+ticketsInfo: ""
 ticketsOffers:
+
  -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
+  name: "IOS"
+  price: ""
+  priceCurrency: "Preferred Qualifications"
+  ticketsNumber: ""
+  buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+  buyButtonText: "Apply Now"
+  ticketContentList: ["단순히 학교에서 전공을 배우는 것을 넘어, 그것을 응용해 자신만의 주력 개발분야를 잡고 발전하는 학생 개발자.", "타인의 의견을 경청하며 협업의 가치를 중요시하고, 함께 개발하며 성장하는 것에 가치를 느끼는 분", "자신의 경험사례를 주변에 공유하는 것을 즐기고, '오픈소스'라는 문화에 관심을갖고 도전해볼 의향이 있는 분"]
+  validFrom: ""
+  validThrough: ""
+
+
  -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
+  name: "Android"
+  price: ""
+  priceCurrency: "Preferred Qualifications"
+  ticketsNumber: ""
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
+  buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+  buyButtonText: "Apply Now"
+  ticketContentList: ["모호하고 추상적인 아이디어나 의견을 자신만의 색깔을 담아 구체적으로 나타내 볼 수 있는 분", "자신만의 독특한 색깔을 유지하되, 타 역할군과의 커뮤니케이션을 유연하게 지켜나가며 협업 할 수 있는 분", "개발자 그룹이지만 이곳에서도 괜찮은 아이디어를 타겟으로 PM을 맡을 수 있다는 용기를 가지고 행동하실 수 있는 분"]
+  validFrom: ""
+  validThrough: ""
   disabled: true
+
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+    name: "BackEnd"
+    price: ""
+    priceCurrency: "Preferred Qualifications"
+    ticketsNumber: ""
+    buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+    buyButtonText: "Apply Now"
+    ticketContentList: ["컨텐츠 팀", "자신만의 독특한 색깔을 유지하되, 타 역할군과의 커뮤니케이션을 유연하게 지켜나가며 협업 할 수 있는 분", "개발자 그룹이지만 이곳에서도 괜찮은 아이디어를 타겟으로 PM을 맡을 수 있다는 용기를 가지고 행동하실 수 있는 분"]
+    validFrom: ""
+    validThrough: ""
+
+
+# Tickets2 Block
+tickets2Title: "SSUmunity 컨텐츠팀 지원하기"
+tickets2Info: ""
+tickets2Offers:
+
+
+ -
+    name: "operation"
+    price: ""
+    priceCurrency: "Preferred Qualifications"
+    ticketsNumber: ""
+    buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+    buyButtonText: "Apply Now"
+    ticketContentList: ["운영팀", "팀의 전체적인 조율을 담당, 타 역할군과의 커뮤니케이션을 유연하게 지켜나가며 협업 할 수 있는 분", "개발자 그룹이지만 이곳에서도 괜찮은 아이디어를 타겟으로 PM을 맡을 수 있다는 용기를 가지고 행동하실 수 있는 분"]
+    validFrom: ""
+    validThrough: ""
+
+ -
+    name: "QA Tester"
+    price: ""
+    priceCurrency: "Preferred Qualifications"
+    ticketsNumber: ""
+    buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+    buyButtonText: "진모제외"
+    ticketContentList: ["QA테스터", "기발한 테스터를 담당, 타 역할군과의 커뮤니케이션을 유연하게 지켜나가며 협업 할 수 있는 분", "개발자 그룹이지만 이곳에서도 괜찮은 아이디어를 타겟으로 PM을 맡을 수 있다는 용기를 가지고 행동하실 수 있는 분"]
+    validFrom: ""
+    validThrough: ""
+
+
+# Tickets3 Block
+tickets3Title: "SSUmunity 운영팀 지원하기"
+tickets3Info: ""
+tickets3Offers:
+
+
+ -
+    name: "operation"
+    price: ""
+    priceCurrency: "Preferred Qualifications"
+    ticketsNumber: ""
+    buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+    buyButtonText: "Apply Now"
+    ticketContentList: ["운영팀", "팀의 전체적인 조율을 담당, 타 역할군과의 커뮤니케이션을 유연하게 지켜나가며 협업 할 수 있는 분", "개발자 그룹이지만 이곳에서도 괜찮은 아이디어를 타겟으로 PM을 맡을 수 있다는 용기를 가지고 행동하실 수 있는 분"]
+    validFrom: ""
+    validThrough: ""
+
+ -
+    name: "QA Tester"
+    price: ""
+    priceCurrency: "Preferred Qualifications"
+    ticketsNumber: ""
+    buyButtonLink: "http://goo.gl/forms/FrZBz8aU5I"
+    buyButtonText: "진모제외"
+    ticketContentList: ["QA테스터", "기발한 테스터를 담당, 타 역할군과의 커뮤니케이션을 유연하게 지켜나가며 협업 할 수 있는 분", "개발자 그룹이지만 이곳에서도 괜찮은 아이디어를 타겟으로 PM을 맡을 수 있다는 용기를 가지고 행동하실 수 있는 분"]
+    validFrom: ""
+    validThrough: ""
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://plus.google.com/u/0/communities/101463090584658665422", icon: "google-plus"}
+ - {link: "https://www.facebook.com/gdgkorea?ref=hl", icon: "facebook"}
+
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "https://plus.google.com/u/0/communities/101463090584658665422", text: "GDG Soongsil University Community"}
+   - {link: "https://developers.google.com/groups/chapter/100263126816983481169/", text: "Google Developers"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "mailto:gdgssu@gmail.com", text: "gdgssu@gmail.com"}
+   - {link: "https://www.google.co.kr/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%8F%99%EC%9E%91%EA%B5%AC+%EC%83%81%EB%8F%841%EB%8F%99+510/@37.4943054,126.9592987,15z/data=!3m1!4b1!4m2!3m1!1s0x357ca1d4065591cb:0x69f6030d99956d32?hl=ko", text: "서울특별시 동작구 상도1동 501 숭실대학교 총동문회관 B1 G-Lab"}
+
+
 
 # Blog
 blogTitle: "Latest news"
@@ -201,9 +248,12 @@ discusShortName: "devfestua"
 # Speakers List Block
 showSessions: true
 
+
 # Team Block
 teamBlockTitle: "About us"
+showSessions: true
 aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
@@ -215,7 +265,6 @@ findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
 logisticsMapCenterCoordinates: "49.056728, 3.117289"
 logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
-logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"

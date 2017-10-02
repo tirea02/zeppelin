@@ -68,7 +68,7 @@ nav {
         height: 100%;
         transition: $long-transition;
         background: #fff;
-        transform: translateX(-100%);
+        transform: translate(-100%,0);
     }
     .st-menu-open & {
         transform: translate(0);
@@ -89,9 +89,6 @@ nav {
         }
         .top-header.after-scroll & {
             transform: translateY(20px);  
-            @media (max-width: 767px) {
-                transform: translateY(0);  
-            }
         }
     }
     li {
@@ -139,13 +136,10 @@ nav {
     }
 }
 .right-nav-button {
-    margin: 11px 11px 0 0;
+    margin: 11px 65px 0 0;
     transition: $base-transition;
     opacity: 1;
     display: block;
-    &:nth-of-type(1) {
-        margin-right: 65px;
-    }
     a {
         font-size: $base-font-size * 90 / 100;
     }
